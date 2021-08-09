@@ -20,6 +20,10 @@ ul {
   list-style: none;
 }
 
+.flex-container {
+  display: flex;
+}
+
 div#wrap {
   width: 580px;
   border: 1px solid #000;
@@ -53,12 +57,17 @@ header#header {
 }
 
 nav#gnb {
+  width: 142px;
   padding: 16px;
   background-color: #a4b39c;
 }
 
 #gnb li {
   line-height: 26px;
+}
+
+div#contents {
+  flex: 1;
 }
 
 div#contents h2 {
