@@ -53,12 +53,19 @@ header#header {
 }
 
 nav#gnb {
+  width: 146px;
+  vertical-align: top;
+
   padding: 16px;
   background-color: #a4b39c;
 }
 
 #gnb li {
   line-height: 26px;
+}
+
+div#contents {
+  vertical-align: top;
 }
 
 div#contents h2 {

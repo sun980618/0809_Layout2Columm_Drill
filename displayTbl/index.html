@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Float 2열 레이아웃</title>
+    <title>Display:table 2열 레이아웃</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -16,8 +16,11 @@
             <span>민화</span>
         </h1>
         </header>
-        <main id="mian">
-            <nav id="gnb">
+        <main id="mian" class="dispTbl">
+            <!-- display:table -->
+
+            <div class="dispTblRow">  
+            <nav id="gnb" cccccc>
                 <ul id="mainMenu">
                     <li class="mainLi">
                         <a href="#">그림의 작가</a>
@@ -37,7 +40,7 @@
                 </ul>
             </nav>
 
-            <div id="contents">
+            <div id="contents" class="dispTblCell">
                 <article>
                     <header class="articleTitle">
                         <h2>승운용호도</h2>
@@ -61,6 +64,7 @@
                 </article>
             </div>
             <!-- contents -->
+        </div>
         </main>
         <footer id="footer">
             Copyright &copy;
