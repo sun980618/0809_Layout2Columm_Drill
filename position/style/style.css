@@ -52,13 +52,35 @@ header#header {
   font-size: 52px;
 }
 
-nav#gnb {
-  padding: 16px;
-  background-color: #a4b39c;
+main#main {
+  position: relative;
 }
 
+nav#gnb {
+  width: 140px;
+  height: 464px;
+  padding: 16px;
+  background-color: #a4b39c;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* 적용1
 #gnb li {
   line-height: 26px;
+} */
+
+적용2 div#contents {
+  width: 438px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+div#contents {
+  margin-left: 140px;
 }
 
 div#contents h2 {
